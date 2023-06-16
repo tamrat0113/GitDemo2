@@ -8,6 +8,8 @@ public class day2 {
   public void ploan()
   {
 	System.out.println("good");
+	System.out.println("good2");
+	System.out.println("good3");
   }
 
 @BeforeTest  //it give high priority than other before executing other

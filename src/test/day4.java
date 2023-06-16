@@ -11,6 +11,8 @@ public class day4 {
 		//selenium}
 		System.out.println("webloginloan");
 		System.out.println(urlname);
+		System.out.println("webloginloan");
+		System.out.println(urlname);
 		
 	}
 	

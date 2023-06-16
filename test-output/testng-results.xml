@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="14" passed="10" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-27T12:59:30 CDT" name="Default suite" finished-at="2023-05-27T12:59:30 CDT" duration-ms="101">
+    <groups>
+      <group name="smoke">
+        <method signature="day1.demo()[pri:0, instance:test.day1@ea6147e]" name="demo" class="test.day1"/>
+        <method signature="day2.ploan()[pri:0, instance:test.day2@69997e9d]" name="ploan" class="test.day2"/>
+        <method signature="day3.webloginCaarloan(java.lang.String,java.lang.String)[pri:0, instance:test.day3@3fb1549b]" name="webloginCaarloan" class="test.day3"/>
+        <method signature="day4.loginAPIhomeloan()[pri:0, instance:test.day4@3e6ef8ad]" name="loginAPIhomeloan" class="test.day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-05-27T12:59:30 CDT" name="Default test" finished-at="2023-05-27T12:59:30 CDT" duration-ms="101">
+      <class name="test.day4">
+        <test-method signature="loginAPIhomeloan()[pri:0, instance:test.day4@3e6ef8ad]" started-at="2023-05-27T12:59:30 CDT" name="loginAPIhomeloan" finished-at="2023-05-27T12:59:30 CDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPIhomeloan -->
+        <test-method signature="mobilloginhomeloan()[pri:0, instance:test.day4@3e6ef8ad]" started-at="2023-05-27T12:59:30 CDT" name="mobilloginhomeloan" finished-at="2023-05-27T12:59:30 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilloginhomeloan -->
+        <test-method signature="webloginhomeloan(java.lang.String)[pri:0, instance:test.day4@3e6ef8ad]" started-at="2023-05-27T12:59:30 CDT" name="webloginhomeloan" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method webloginhomeloan but has not been marked @Optional or defined
+in C:\Users\16513\AppData\Local\Temp\testng-eclipse-1366878373\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method webloginhomeloan but has not been marked @Optional or defined
+in C:\Users\16513\AppData\Local\Temp\testng-eclipse-1366878373\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhomeloan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method is-config="true" signature="prerequset()[pri:0, instance:test.day2@69997e9d]" started-at="2023-05-27T12:59:30 CDT" name="prerequset" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequset -->
+        <test-method signature="ploan()[pri:0, instance:test.day2@69997e9d]" started-at="2023-05-27T12:59:30 CDT" name="ploan" finished-at="2023-05-27T12:59:30 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method is-config="true" signature="Bfsuite()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="Bfsuite" finished-at="2023-05-27T12:59:30 CDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+        <test-method is-config="true" signature="Bfmethod()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="Bfmethod" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="beforeClass" data-provider="getData" finished-at="2023-05-27T12:59:30 CDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="afterevery" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="beforeClass" data-provider="getData" finished-at="2023-05-27T12:59:30 CDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="Bfmethod()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="Bfmethod" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="afterevery" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="beforeClass" data-provider="getData" finished-at="2023-05-27T12:59:30 CDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="Bfmethod()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="Bfmethod" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="afterevery" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method signature="loginAPICarloan(java.lang.String)[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="loginAPICarloan" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method loginAPICarloan but has not been marked @Optional or defined
+in C:\Users\16513\AppData\Local\Temp\testng-eclipse-1366878373\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method loginAPICarloan but has not been marked @Optional or defined
+in C:\Users\16513\AppData\Local\Temp\testng-eclipse-1366878373\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPICarloan -->
+        <test-method signature="mobilloginCarloan()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="mobilloginCarloan" finished-at="2023-05-27T12:59:30 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilloginCarloan -->
+        <test-method is-config="true" signature="Bfmethod()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="Bfmethod" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="afterevery" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="Bfmethod()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="Bfmethod" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method signature="mobilsignoutCarloan()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="mobilsignoutCarloan" finished-at="2023-05-27T12:59:30 CDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilsignoutCarloan -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="afterevery" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method signature="webloginCaarloan(java.lang.String,java.lang.String)[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="webloginCaarloan" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method webloginCaarloan but has not been marked @Optional or defined
+in C:\Users\16513\AppData\Local\Temp\testng-eclipse-1366878373\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method webloginCaarloan but has not been marked @Optional or defined
+in C:\Users\16513\AppData\Local\Temp\testng-eclipse-1366878373\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginCaarloan -->
+        <test-method is-config="true" signature="AFRsuite()[pri:0, instance:test.day3@3fb1549b]" started-at="2023-05-27T12:59:30 CDT" name="AFRsuite" finished-at="2023-05-27T12:59:30 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AFRsuite -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method signature="demo()[pri:0, instance:test.day1@ea6147e]" started-at="2023-05-27T12:59:30 CDT" name="demo" finished-at="2023-05-27T12:59:30 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="secondTest()[pri:0, instance:test.day1@ea6147e]" started-at="2023-05-27T12:59:30 CDT" name="secondTest" finished-at="2023-05-27T12:59:30 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:test.day1@ea6147e]" started-at="2023-05-27T12:59:30 CDT" name="lastexecution" finished-at="2023-05-27T12:59:30 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loon Department">
+	
+	
+	  <test  name="Personal loon">
+		  <parameter name ="URL" value="personal.com"/>
+		 
+	    <classes>
+	      <class name="test.day1">
+			  <methods>
+				  <include name="demo"/>
+			  </methods>  
+		  </class>
+		  
+	      <class name="test.day2"/>
+	      <class name="test.day4"/>
+	    </classes>
+	 </test> 
+  
+  <test  name="Car loon">
+	  <parameter name ="URL" value="carLoan.com"/>
+	   <parameter name ="APIKey/usrname" value="123"/>
+    <classes>
+      <class name="test.day3">
+		  <methods>
+			  <exclude name="mobil.^"/>
+		  </methods>
+	  </class> 
+    </classes>
+  </test> 
+</suite> 
+
